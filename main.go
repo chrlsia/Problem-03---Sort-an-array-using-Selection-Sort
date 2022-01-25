@@ -22,7 +22,6 @@ func main() {
 	numbers:=[]int{}
 	for _, value := range elements {
 		result,_ := strconv.Atoi(value)
-		// numbers[index]=result
 		numbers=append(numbers,result)
 	}
 
